@@ -5,8 +5,8 @@
 $( document ).ready(function() {
 
   function sendEvent(data){
+    //Sample analytics event code
     // ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue], [fieldsObject]);
-    // ga('send', 'event', 'Videos', 'play', 'Fall Campaign');
 
     eventName = data.eventName;
     eventCategory = data.eventCategory;
