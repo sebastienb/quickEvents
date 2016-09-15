@@ -17,7 +17,6 @@ $( document ).ready(function() {
     // console.log(eventName+"-"+eventCategory+"-"+eventLabel);
   };
 
-
   //Default HTML Elements
 
   //anchors clicked
@@ -26,6 +25,8 @@ $( document ).ready(function() {
     //Sets title attr or ID as link title
     if($(this).attr('title')){
       anchorTitle = $(this).attr('title');
+    }else if ($(this).text()!="") {
+        anchorTitle =$(this).text();
     }else if($(this).attr('id')){
         anchorTitle = $(this).attr('id');
     }else if($(this).attr('class')){
@@ -87,8 +88,5 @@ $( document ).ready(function() {
     sendEvent(data);
 
   });
-
-
-
 
 });
