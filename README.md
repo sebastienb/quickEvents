@@ -2,8 +2,12 @@
 
 Drop this on a website to quickly enable event tracking for google analytics on websites and web apps. Some of the tracking is built for sites using bootstrap 3 but they can be removed or modified to work with other frameworks or scripts.
 
-###Requirements
+###Requirements and setup
 QuickEvents requires you to have jQuery and Google analytics on your site. To use simply add it to your footer after your other scripts.
+
+```
+<script src="PATH-TO-SCRIPT/quick-events.js"></script>
+```
 
 
 
