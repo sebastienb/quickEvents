@@ -1,8 +1,13 @@
 #Quick Events
 
-Drop this on a website to quickly enable event tracking for google analytics on websites and web apps. Some of the tracking is built for sites using bootstrap 3 but they can be removed or modified to work with other frameworks or scripts. 
+Drop this on a website to quickly enable event tracking for google analytics on websites and web apps. Some of the tracking is built for sites using bootstrap 3 but they can be removed or modified to work with other frameworks or scripts.
 
-###Anchors
+###Requirements
+QuickEvents requires you to have jQuery and Google analytics on your site. To use simply add it to your footer after your other scripts.
+
+
+
+###Anchors and Buttons
 First checks for a title tag, if none is present it then checks for the text inside the anchor and if none is present it used the `ID` and `Class` of the anchor.
 
 ###Bootstrap Modals

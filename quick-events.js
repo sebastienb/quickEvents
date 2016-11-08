@@ -20,7 +20,7 @@ $( document ).ready(function() {
   //Default HTML Elements
 
   //anchors clicked
-  $('a').on('click', function (e) {
+  $('a, button').on('click', function (e) {
 
     //Sets title attr or ID as link title
     if($(this).attr('title')){
